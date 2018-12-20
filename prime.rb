@@ -10,7 +10,7 @@ def prime?(n)
   
   for i in 2...n do
     if n % i == 0
-      return false
+      false
     else
       result = true
     end
