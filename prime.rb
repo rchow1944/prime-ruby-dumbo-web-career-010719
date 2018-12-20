@@ -2,10 +2,10 @@
 def prime?(n)
   result = false
   if n == 2 
-    true
+    result = true
   end
   if n <= 1
-    false
+    result = false
   end
   
   for i in 2...n do
